@@ -5,7 +5,7 @@ r = sr.Recognizer()
 
 # Reading audiofile and storing in audio_text variable
 
-with sr.AudioFile("sample.wav") as source :
+with sr.AudioFile("audio1.flac") as source :
     audio_input = r.listen(source)
     
 # Using exception handling to know if speech recognition API works or not
