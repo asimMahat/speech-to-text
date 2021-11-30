@@ -54,8 +54,8 @@ with sr.Microphone() as source :
             # print(type(text))
             print(text)
 
-        # Writing the result into the text file 
-            with open("microphone-results.txt", "w") as f:
+            # Writing the result into the text file 
+            with open("results/microphone-results.txt", "w") as f:
                 f.write(text)
 
         except :

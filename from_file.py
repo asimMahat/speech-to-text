@@ -5,7 +5,7 @@ r = sr.Recognizer()
 
 # Reading audiofile and storing in audio_text variable
 
-with sr.AudioFile("audio1.flac") as source :
+with sr.AudioFile("audio_files/two.wav") as source :
     audio_input = r.listen(source)
     
 # Using exception handling to know if speech recognition API works or not
@@ -18,6 +18,10 @@ with sr.AudioFile("audio1.flac") as source :
         # text = r.recognize_google(audio_text, language ='fr-FR')
         print("Converting audio into text")
         print(text)
+
+        # Writing the result into the text file 
+        with open("results/file-results.txt", "w") as f:
+            f.write(text)
 
     except :
         print ('Sorry run again !!!')
