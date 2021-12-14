@@ -11,9 +11,9 @@ This project is simple speech to text converter. The audio file can be converted
 
 ## Technologies
 This projecr is created with:
-* Python : 12.3
-* Speech recognition : 2.33
-* Flask : 999
+* Python==3.8.11
+* SpeechRecognition==3.8.1
+* Flask==2.0.2
 	
 ## Setup
 At first install 'requirements.txt' locally using pip package manager in python,
