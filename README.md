@@ -10,7 +10,7 @@ This project is simple speech to text converter. The audio file can be converted
 
 
 ## Technologies
-This projecr is created with:
+This project is created with:
 * Python==3.8.11
 * SpeechRecognition==3.8.1
 * Flask==2.0.2
@@ -19,7 +19,7 @@ This projecr is created with:
 At first install 'requirements.txt' locally using pip package manager in python,
 
 ```
-$ pip install $ pip install -r requirements.txt
+$ pip install -r requirements.txt
 
 ```
 
